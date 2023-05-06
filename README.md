@@ -18,9 +18,11 @@ prepare a Python environment and download energy time series (if you have no dat
 
 ### 1. Setup Python Environment
 
-Set up a virtual environment using e.g. venv (`python -m venv venv`) or Anaconda (`conda create -n env_name`).
-Afterwards, install the dependencies with `pip install -r requirements.txt`.
-Finally, install tensorflow via `pip install tensorflow` and tensorflow-addons via `pip install tensorflow-addons`.
+Perform the following steps:
+- Set up a virtual environment using e.g. venv (`python -m venv venv`) or Anaconda (`conda create -n env_name`).
+- Install the dependencies with `pip install -r requirements.txt`.
+- Install tensorflow via `pip install tensorflow`.
+- Install tensorflow-addons via `pip install tensorflow-addons`.
 
 ### 2. Download Data (optional)
 
