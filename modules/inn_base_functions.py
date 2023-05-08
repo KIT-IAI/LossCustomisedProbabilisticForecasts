@@ -1,6 +1,5 @@
 import FrEIA.framework as Ff
 import FrEIA.modules as Fm
-import numpy as np
 import torch
 from torch import nn
 

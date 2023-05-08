@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.neighbors import NearestNeighbors
 from pywatts.core.base import BaseTransformer
 
-from pywatts.utils._xarray_time_series_utils import numpy_to_xarray, _get_time_indexes
+from pywatts.utils._xarray_time_series_utils import _get_time_indexes
 
 
 class NNQF(BaseTransformer):

@@ -2,7 +2,6 @@ import logging
 import warnings
 
 import numpy as np
-import pandas as pd
 import properscoring
 from sklearn.metrics import mean_pinball_loss
 import xarray as xr

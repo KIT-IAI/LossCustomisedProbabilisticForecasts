@@ -1,19 +1,10 @@
 import logging
-from typing import Dict, Callable, Optional
+from typing import Dict, Optional
 
-import numpy as np
-import tensorflow.python.framework.ops
 import xarray as xr
 from pywatts.core.base_summary import BaseSummary
-from pywatts.core.exceptions.input_not_available import InputNotAvailable
 
-from pywatts.core.base import BaseTransformer
 from pywatts.core.summary_object import SummaryObjectList, SummaryObject
-from pywatts.utils._xarray_time_series_utils import _get_time_indexes
-import pandas as pd
-import matplotlib.pyplot as plt
-
-import tensorflow_addons as tfa
 import properscoring
 
 logger = logging.getLogger(__name__)
