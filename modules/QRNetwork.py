@@ -155,7 +155,7 @@ class PLNN(BaseTransformer):
                                                                                      patience=5,
                                                                                      restore_best_weights=True),
                                                                        tf.keras.callbacks.TensorBoard(
-                                                                           log_dir='logs',
+                                                                           log_dir='../../Results/Keras/logs',
                                                                            histogram_freq=0,
                                                                            write_graph=True,
                                                                            write_images=False,
