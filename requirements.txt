@@ -4,5 +4,6 @@ gluonts==0.12.7
 hyperopt==0.2.7
 properscoring==0.1
 pytorch-forecasting==0.10.3
-ray==2.0.1
 xgboost==1.7.5
+chardet
+cchardet
