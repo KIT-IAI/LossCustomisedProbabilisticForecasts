@@ -27,9 +27,9 @@ Perform the following steps:
 
 - Set up a virtual environment of Python 3.10 using e.g. venv (`python3.10 -m venv venv`) or Anaconda (`conda create -n env_name python=3.10`).
 - Possibly install pip via `conda install pip`.
-- Install tensorflow via `pip install tensorflow`.
+- Install tensorflow via `pip install tensorflow` or if using a mac `pip install tensorflow-macos`.
 - Install the dependencies with `pip install -r requirements.txt`.
-- Install ray via `pip install -U "ray[default]"` with venv or `conda install -c conda-forge "ray-default"` with Anaconda
+- Install ray via `pip install -U "ray[default]==2.0.1"` with venv or `conda install -c conda-forge "ray-default==2.0.1"` with Anaconda
 - Install tensorflow-addons via `pip install tensorflow-addons`.
 
 ### 2. Download Data (optional)
